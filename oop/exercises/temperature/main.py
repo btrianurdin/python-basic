@@ -15,6 +15,6 @@ cel_to_kel = temp.celcius(20).toKelvin(True)
 fah_to_cel = temp.fahrenheit(50).toCelcius(True)
 
 print('50' + temp.symbol('c') + ' = ' + cel_to_fah_default)
-print('30'+ temp.symbol('C') +' = ' + cel_to_fah)
+print('30' + temp.symbol('C') + ' = ' + cel_to_fah)
 print('30' + temp.symbol('C') + ' = ' + cel_to_kel)
 print('30' + temp.symbol('F') + ' = ' + fah_to_cel)
